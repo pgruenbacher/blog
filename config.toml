@@ -1,0 +1,21 @@
+baseurl = "http://pgruenbacher.github.io/"
+languageCode = "en-us"
+title = "Paul Gruenbacher"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+theme = "redlounge"
+
+[params]
+  description = "Paul Gruenbacher's repositories and blog"
+  author = "Paul Gruenbacher"
+  #redlounge configurations
+  sidebartitle="Haus8"
+  sidebartagline="my public site"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/posts"
+
