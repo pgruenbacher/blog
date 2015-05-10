@@ -1,6 +1,6 @@
 baseurl = "http://pgruenbacher.github.io/"
 languageCode = "en-us"
-title = "Paul Gruenbacher"
+title = "Modicum"
 
 contentdir = "content"
 layoutdir = "layouts"
@@ -12,8 +12,8 @@ theme = "redlounge"
   description = "Paul Gruenbacher's repositories and blog"
   author = "Paul Gruenbacher"
   #redlounge configurations
-  sidebartitle="Haus8"
-  sidebartagline="my public site"
+  sidebartitle="Modicum"
+  sidebartagline="Posts by Paul Gruenbacher"
 
 [[menu.main]]
     name = "Blog"
