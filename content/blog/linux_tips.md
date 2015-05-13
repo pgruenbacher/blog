@@ -13,6 +13,9 @@ For learning how to make bash shell scripts for linux. Recommend going through t
 * **tail +20 < hotel.txt | head -n30 >hlist** takes lines 20 and is filtered  by head to 30 from hotel.txt and ouputs to hlist file.
 * **sort < sname | uniq > u_sname** sorts the lines of sname file, and is filtered by uniq command.
 
+### Search and Replace
+
+
 ### Relational Operators
 * **10 -eq 10**: a is __equal__ to b
 * **10 -ne 20**: a is __not equal__ to b
@@ -25,6 +28,7 @@ For learning how to make bash shell scripts for linux. Recommend going through t
 * [ -S filepath ] Returns true if file exists and its a socket file.
 * [ expr1 -a expr2 ] Returns true if both the expression is true.
 * [ expr1 -o expr2 ] Returns true if either of the expression1 or 2 is true.
+* [ -z filepath] Returns true if path is null
 
 ### For Loops
     for ((  i = 0 ;  i <= 5;  i++  ))
